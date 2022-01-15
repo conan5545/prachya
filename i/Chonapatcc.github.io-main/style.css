@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    background-color: rgb(0, 46, 24);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#popcat {
+    width: 400px;
+}
+
+#btn {
+    width: 150px;
+    height: 70px;
+    font-size: 2em;
+    letter-spacing: 3px;
+    border: 3px solid #f8f8f8;
+    background-color: transparent;
+    color: #ffffff;
+    margin-top: 40px;
+    user-select: none;
+    border-radius: 30px;
+}
+
+#btn:focus {
+    outline: none;
+}
+
+#btn:active {
+    border: 3px solid rgb(255, 0, 0);
+    color: rgb(255, 0, 0);
+}
+
+@media only screen and (max-width: 480px) {
+    #popcat {
+        width: 200px;
+    }
+}
